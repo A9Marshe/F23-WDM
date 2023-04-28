@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* table {
+  align-self: flex-start;
+} */
+table,
+th,
+td {
+  border: 1px solid black;
+}
+td,
+th {
+  padding: 0.25rem;
+  text-align: center;
+}
+th {
+  color: antiquewhite;
+  background-color: #637c9d;
+  text-align: center;
+}
+
+td {
+  background-color: #eef2ff;
+}
+
+caption {
+  padding: 0.5rem;
+}

@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      /* table {
+  align-self: flex-start;
+} */
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      td,
+      th {
+        padding: 0.25rem;
+        text-align: center;
+      }
+      th {
+        color: antiquewhite;
+        background-color: #637c9d;
+        text-align: center;
+      }
+
+      td {
+        background-color: #eef2ff;
+      }
+
+      caption {
+        padding: 0.5rem;
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="../dist/output.css" /> -->
+    <style>
+      /*! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com*/
+      *,
+      :after,
+      :before {
+        box-sizing: border-box;
+        border: 0 solid #e5e7eb;
+      }
+      :after,
+      :before {
+        --tw-content: "";
+      }
+      html {
+        line-height: 1.5;
+        -webkit-text-size-adjust: 100%;
+        -moz-tab-size: 4;
+        -o-tab-size: 4;
+        tab-size: 4;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+          Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-feature-settings: normal;
+      }
+      body {
+        margin: 0;
+        line-height: inherit;
+      }
+      hr {
+        height: 0;
+        color: inherit;
+        border-top-width: 1px;
+      }
+      abbr:where([title]) {
+        -webkit-text-decoration: underline dotted;
+        text-decoration: underline dotted;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-size: inherit;
+        font-weight: inherit;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      b,
+      strong {
+        font-weight: bolder;
+      }
+      code,
+      kbd,
+      pre,
+      samp {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          Liberation Mono, Courier New, monospace;
+        font-size: 1em;
+      }
+      small {
+        font-size: 80%;
+      }
+      sub,
+      sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: initial;
+      }
+      sub {
+        bottom: -0.25em;
+      }
+      sup {
+        top: -0.5em;
+      }
+      table {
+        text-indent: 0;
+        border-color: inherit;
+        border-collapse: collapse;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        font-weight: inherit;
+        line-height: inherit;
+        color: inherit;
+        margin: 0;
+        padding: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      [type="button"],
+      [type="reset"],
+      [type="submit"],
+      button {
+        -webkit-appearance: button;
+        background-color: initial;
+        background-image: none;
+      }
+      :-moz-focusring {
+        outline: auto;
+      }
+      :-moz-ui-invalid {
+        box-shadow: none;
+      }
+      progress {
+        vertical-align: initial;
+      }
+      ::-webkit-inner-spin-button,
+      ::-webkit-outer-spin-button {
+        height: auto;
+      }
+      [type="search"] {
+        -webkit-appearance: textfield;
+        outline-offset: -2px;
+      }
+      ::-webkit-search-decoration {
+        -webkit-appearance: none;
+      }
+      ::-webkit-file-upload-button {
+        -webkit-appearance: button;
+        font: inherit;
+      }
+      summary {
+        display: list-item;
+      }
+      blockquote,
+      dd,
+      dl,
+      figure,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      hr,
+      p,
+      pre {
+        margin: 0;
+      }
+      fieldset {
+        margin: 0;
+      }
+      fieldset,
+      legend {
+        padding: 0;
+      }
+      menu,
+      ol,
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      textarea {
+        resize: vertical;
+      }
+      input::-moz-placeholder,
+      textarea::-moz-placeholder {
+        opacity: 1;
+        color: #9ca3af;
+      }
+      input::placeholder,
+      textarea::placeholder {
+        opacity: 1;
+        color: #9ca3af;
+      }
+      [role="button"],
+      button {
+        cursor: pointer;
+      }
+      :disabled {
+        cursor: default;
+      }
+      audio,
+      canvas,
+      embed,
+      iframe,
+      img,
+      object,
+      svg,
+      video {
+        display: block;
+        vertical-align: middle;
+      }
+      img,
+      video {
+        max-width: 100%;
+        height: auto;
+      }
+      [hidden] {
+        display: none;
+      }
+      *,
+      ::backdrop,
+      :after,
+      :before {
+        --tw-border-spacing-x: 0;
+        --tw-border-spacing-y: 0;
+        --tw-translate-x: 0;
+        --tw-translate-y: 0;
+        --tw-rotate: 0;
+        --tw-skew-x: 0;
+        --tw-skew-y: 0;
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        --tw-pan-x: ;
+        --tw-pan-y: ;
+        --tw-pinch-zoom: ;
+        --tw-scroll-snap-strictness: proximity;
+        --tw-ordinal: ;
+        --tw-slashed-zero: ;
+        --tw-numeric-figure: ;
+        --tw-numeric-spacing: ;
+        --tw-numeric-fraction: ;
+        --tw-ring-inset: ;
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: #3b82f680;
+        --tw-ring-offset-shadow: 0 0 #0000;
+        --tw-ring-shadow: 0 0 #0000;
+        --tw-shadow: 0 0 #0000;
+        --tw-shadow-colored: 0 0 #0000;
+        --tw-blur: ;
+        --tw-brightness: ;
+        --tw-contrast: ;
+        --tw-grayscale: ;
+        --tw-hue-rotate: ;
+        --tw-invert: ;
+        --tw-saturate: ;
+        --tw-sepia: ;
+        --tw-drop-shadow: ;
+        --tw-backdrop-blur: ;
+        --tw-backdrop-brightness: ;
+        --tw-backdrop-contrast: ;
+        --tw-backdrop-grayscale: ;
+        --tw-backdrop-hue-rotate: ;
+        --tw-backdrop-invert: ;
+        --tw-backdrop-opacity: ;
+        --tw-backdrop-saturate: ;
+        --tw-backdrop-sepia: ;
+      }
+      .m-2 {
+        margin: 0.5rem;
+      }
+      .m-3 {
+        margin: 0.75rem;
+      }
+      .m-4 {
+        margin: 1rem;
+      }
+      .mx-4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+      .mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .my-3 {
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+      }
+      .my-5 {
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+      }
+      .mb-2 {
+        margin-bottom: 0.5rem;
+      }
+      .ml-1 {
+        margin-left: 0.25rem;
+      }
+      .ml-6 {
+        margin-left: 1.5rem;
+      }
+      .mt-0 {
+        margin-top: 0;
+      }
+      .flex {
+        display: flex;
+      }
+      .table {
+        display: table;
+      }
+      .h-2 {
+        height: 0.5rem;
+      }
+      .h-fit {
+        height: -moz-fit-content;
+        height: fit-content;
+      }
+      .w-full {
+        width: 100%;
+      }
+      .flex-grow {
+        flex-grow: 1;
+      }
+      .flex-col {
+        flex-direction: column;
+      }
+      .flex-wrap {
+        flex-wrap: wrap;
+      }
+      .flex-nowrap {
+        flex-wrap: nowrap;
+      }
+      .items-center {
+        align-items: center;
+      }
+      .justify-center {
+        justify-content: center;
+      }
+      .justify-evenly {
+        justify-content: space-evenly;
+      }
+      .gap-3 {
+        gap: 0.75rem;
+      }
+      .gap-5 {
+        gap: 1.25rem;
+      }
+      .gap-6 {
+        gap: 1.5rem;
+      }
+      .gap-9 {
+        gap: 2.25rem;
+      }
+      .gap-y-3 {
+        row-gap: 0.75rem;
+      }
+      .gap-y-5 {
+        row-gap: 1.25rem;
+      }
+      .rounded-lg {
+        border-radius: 0.5rem;
+      }
+      .rounded-md {
+        border-radius: 0.375rem;
+      }
+      .rounded-xl {
+        border-radius: 0.75rem;
+      }
+      .border-2 {
+        border-width: 2px;
+      }
+      .border-4 {
+        border-width: 4px;
+      }
+      .border-blue-400 {
+        --tw-border-opacity: 1;
+        border-color: rgb(96 165 250 / var(--tw-border-opacity));
+      }
+      .border-blue-500 {
+        --tw-border-opacity: 1;
+        border-color: rgb(59 130 246 / var(--tw-border-opacity));
+      }
+      .border-gray-200 {
+        --tw-border-opacity: 1;
+        border-color: rgb(229 231 235 / var(--tw-border-opacity));
+      }
+      .bg-blue-400 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+      }
+      .bg-gray-100 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+      }
+      .bg-gray-300 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+      }
+      .bg-gray-50 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+      }
+      .bg-slate-500 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+      }
+      .bg-slate-900 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+      }
+      .bg-white {
+        --tw-bg-opacity: 1;
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+      }
+      .bg-opacity-30 {
+        --tw-bg-opacity: 0.3;
+      }
+      .bg-opacity-50 {
+        --tw-bg-opacity: 0.5;
+      }
+      .p-2 {
+        padding: 0.5rem;
+      }
+      .p-3 {
+        padding: 0.75rem;
+      }
+      .p-4 {
+        padding: 1rem;
+      }
+      .p-7 {
+        padding: 1.75rem;
+      }
+      .p-8 {
+        padding: 2rem;
+      }
+      .px-10 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+      }
+      .px-2 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+      .px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .font-mono {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          Liberation Mono, Courier New, monospace;
+      }
+      .text-2xl {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+      .text-xl {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+      }
+      .font-bold {
+        font-weight: 700;
+      }
+      .font-medium {
+        font-weight: 500;
+      }
+      .font-semibold {
+        font-weight: 600;
+      }
+      .italic {
+        font-style: italic;
+      }
+      .text-gray-100 {
+        --tw-text-opacity: 1;
+        color: rgb(243 244 246 / var(--tw-text-opacity));
+      }
+      .text-slate-500 {
+        --tw-text-opacity: 1;
+        color: rgb(100 116 139 / var(--tw-text-opacity));
+      }
+      .text-white {
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+      }
+      .underline {
+        text-decoration-line: underline;
+      }
+      .drop-shadow-lg {
+        --tw-drop-shadow: drop-shadow(0 10px 8px #0000000a)
+          drop-shadow(0 4px 3px #0000001a);
+        filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+          var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert)
+          var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+      }
+      .hover\:bg-indigo-50:hover {
+        --tw-bg-opacity: 1;
+        background-color: rgb(238 242 255 / var(--tw-bg-opacity));
+      }
+      .hover\:text-indigo-900:hover {
+        --tw-text-opacity: 1;
+        color: rgb(49 46 129 / var(--tw-text-opacity));
+      }
+      @media (min-width: 768px) {
+        .md\:w-1\/2 {
+          width: 50%;
+        }
+        .md\:w-4\/5 {
+          width: 80%;
+        }
+        .md\:flex-grow-0 {
+          flex-grow: 0;
+        }
+      }
+    </style>
+    <title>WDA homework</title>
+  </head>
+  <body class="bg-gray-300 p-3">
+    <header
+      class="w-full md:w-1/2 flex border-2 mx-auto border-blue-400 rounded-xl p-4 bg-white flex-nowrap items-center flex-col gap-y-3"
+    >
+      <h1 class="text-2xl font-medium">Report paper for WDM assignment</h1>
+
+      <div class="flex gap-6 font-mono">
+        <h2>Ali Alkhateeb <span class="italic">(ali_242361)</span></h2>
+        <h2>George Abdoush <span class="italic">(george_237618)</span></h2>
+      </div>
+
+      <h2 class="flex items-center">
+        <span
+          class="text-md mx-4 drop-shadow-lg bg-slate-500 px-2 text-white rounded-lg"
+          ><span class="font-semibold"> F22: </span> MWS-WDM
+        </span>
+
+        <p>Access notebook via this link: &ThickSpace;</p>
+        <a
+          class="font-medium underline hover:text-indigo-900 hover:bg-indigo-50"
+          href="https://colab.research.google.com/drive/1bdrD8ed1mIpA0-avM7ry3gSaBpNEonRo?usp=sharing"
+          >Colab Jupyter Notebook</a
+        >
+      </h2>
+      <h6 class="italic">
+        please read the
+        <a
+          class="underline hover:text-indigo-900 hover:bg-indigo-50"
+          href="README.txt"
+          >README.txt</a
+        >
+        file attached in assignment folder
+      </h6>
+    </header>
+    <main>
+      <div
+        class="flex flex-col w-full flex-wrap gap-y-5 p-8 my-5 bg-gray-50 bg-opacity-30"
+        id="logistic-regression-report"
+      >
+        <h3 class="font-bold text-2xl">Logistic Regression Report</h3>
+        <div class="flex gap-9 flex-wrap px-10 justify-center">
+          <div class="p-4 bg-white drop-shadow-lg rounded-md">
+            <table id="logistic-regression-report-container">
+              <caption>
+                Classification Report for Logisitc Regression Classifier
+              </caption>
+              <tr>
+                <th></th>
+                <th>precision</th>
+                <th>recall</th>
+                <th>f1-score</th>
+                <th>support</th>
+              </tr>
+              <tr>
+                <td>Pickup</td>
+                <td>0.36</td>
+                <td>0.15</td>
+                <td>0.22</td>
+                <td>15459</td>
+              </tr>
+              <tr>
+                <td>Truck</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>89</td>
+              </tr>
+              <tr>
+                <td>Mini-van</td>
+                <td>0.12</td>
+                <td>0.01</td>
+                <td>0.01</td>
+                <td>1524</td>
+              </tr>
+              <tr>
+                <td>Hatchback</td>
+                <td>0.40</td>
+                <td>0.21</td>
+                <td>0.27</td>
+                <td>3826</td>
+              </tr>
+              <tr>
+                <td>SUV</td>
+                <td>0.27</td>
+                <td>0.07</td>
+                <td>0.12</td>
+                <td>3275</td>
+              </tr>
+              <tr>
+                <td>Coupe</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>945</td>
+              </tr>
+              <tr>
+                <td>Bus</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>109</td>
+              </tr>
+              <tr>
+                <td>Sedan</td>
+                <td>0.18</td>
+                <td>0.03</td>
+                <td>0.06</td>
+                <td>4481</td>
+              </tr>
+              <tr>
+                <td>Convertible</td>
+                <td>0.38</td>
+                <td>0.17</td>
+                <td>0.24</td>
+                <td>8684</td>
+              </tr>
+              <tr>
+                <td>Wagon</td>
+                <td>0.47</td>
+                <td>0.89</td>
+                <td>0.61</td>
+                <td>35964</td>
+              </tr>
+              <tr>
+                <td>Other</td>
+                <td>0.50</td>
+                <td>0.20</td>
+                <td>0.29</td>
+                <td>7143</td>
+              </tr>
+              <tr>
+                <td>Van</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>1685</td>
+              </tr>
+              <tr>
+                <td>Offroad</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>2192</td>
+              </tr>
+              <tr>
+                <td class="font-bold">Accuracy</td>
+                <td></td>
+                <td></td>
+                <td>0.45</td>
+                <td>85376</td>
+              </tr>
+              <tr>
+                <td class="font-bold">Macro avg</td>
+
+                <td>0.21</td>
+                <td>0.13</td>
+                <td>0.14</td>
+                <td>85376</td>
+              </tr>
+              <tr>
+                <td class="font-bold">Weighted avg</td>
+
+                <td>0.38</td>
+                <td>0.45</td>
+                <td>0.37</td>
+                <td>85376</td>
+              </tr>
+            </table>
+          </div>
+          <div class="p-4 bg-white drop-shadow-lg rounded-md">
+            <div class="m-2 p-4 bg-slate-500 bg-opacity-30 rounded-lg">
+              <table class="mx-auto" id="LR-Micro-Scores">
+                <caption>
+                  Micro Scores
+                </caption>
+                <tr>
+                  <td>Precision</td>
+                  <td>0.45</td>
+                </tr>
+                <tr>
+                  <td>Recall</td>
+                  <td>0.45</td>
+                </tr>
+                <tr>
+                  <td>F1-score</td>
+                  <td>0.45</td>
+                </tr>
+              </table>
+            </div>
+            <div class="m-2 p-8 bg-slate-500 bg-opacity-30 rounded-lg">
+              <table class="mx-auto" id="LR-Macro-Scores">
+                <caption>
+                  Macro Scores
+                </caption>
+                <tr>
+                  <td>Precision</td>
+                  <td>0.21</td>
+                </tr>
+                <tr>
+                  <td>Recall</td>
+                  <td>0.13</td>
+                </tr>
+                <tr>
+                  <td>F1-score</td>
+                  <td>0.14</td>
+                </tr>
+              </table>
+            </div>
+            <div class="m-2 p-4 bg-slate-500 bg-opacity-30 rounded-lg">
+              <table class="mx-auto" id="LR-Weighted-Scores">
+                <caption>
+                  Weighted Scores
+                </caption>
+                <tr>
+                  <td>Precision</td>
+                  <td>0.38</td>
+                </tr>
+                <tr>
+                  <td>Recall</td>
+                  <td>0.45</td>
+                </tr>
+                <tr>
+                  <td>F1-score</td>
+                  <td>0.14</td>
+                </tr>
+              </table>
+            </div>
+            <p
+              class="flex justify-center p-2 m-2 mx-auto rounded-md bg-opacity-30"
+              style="background-color: #f1ed6b"
+            >
+              <span class="font-bold">Accuracy: &MediumSpace; </span>
+              45&percnt;
+            </p>
+          </div>
+          <div
+            class="p-4 bg-white drop-shadow-lg rounded-md flex-grow justify-center items-center flex"
+          >
+            <figure>
+              <img
+                width="800px"
+                src="media/LR_ROC.png"
+                alt="Logisit Regressions ROC"
+              />
+              <figcaption></figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        id="first seperator"
+        class="w-full px-4 my-3 bg-opacity-50 h-2 rounded-xl bg-blue-400"
+      ></div>
+      <div
+        class="flex flex-col w-full flex-wrap gap-y-5 p-8 my-5 bg-gray-50 bg-opacity-30"
+        id="decission-tree-report"
+      >
+        <h3 class="font-bold text-2xl">Decission Tree Report</h3>
+        <div class="flex gap-9 flex-wrap px-10 justify-center">
+          <div class="p-4 bg-white drop-shadow-lg rounded-md">
+            <table id="decission-tree-report-container">
+              <caption>
+                Classification Report for Decission Tree Classifier
+              </caption>
+              <tr>
+                <th></th>
+                <th>precision</th>
+                <th>recall</th>
+                <th>f1-score</th>
+                <th>support</th>
+              </tr>
+              <tr>
+                <td>Pickup</td>
+                <td>0.72</td>
+                <td>0.72</td>
+                <td>0.72</td>
+                <td>15495</td>
+              </tr>
+              <tr>
+                <td>Truck</td>
+                <td>0.56</td>
+                <td>0.58</td>
+                <td>0.57</td>
+                <td>93</td>
+              </tr>
+              <tr>
+                <td>Mini-van</td>
+                <td>0.59</td>
+                <td>0.61</td>
+                <td>0.60</td>
+                <td>1554</td>
+              </tr>
+              <tr>
+                <td>Hatchback</td>
+                <td>0.67</td>
+                <td>0.67</td>
+                <td>0.67</td>
+                <td>3786</td>
+              </tr>
+              <tr>
+                <td>SUV</td>
+                <td>0.68</td>
+                <td>0.70</td>
+                <td>0.69</td>
+                <td>3254</td>
+              </tr>
+              <tr>
+                <td>Coupe</td>
+                <td>0.53</td>
+                <td>0.51</td>
+                <td>0.52</td>
+                <td>994</td>
+              </tr>
+              <tr>
+                <td>Bus</td>
+                <td>0.18</td>
+                <td>0.21</td>
+                <td>0.19</td>
+                <td>112</td>
+              </tr>
+              <tr>
+                <td>Sedan</td>
+                <td>0.78</td>
+                <td>0.80</td>
+                <td>0.79</td>
+                <td>4460</td>
+              </tr>
+              <tr>
+                <td>Convertible</td>
+                <td>0.79</td>
+                <td>0.80</td>
+                <td>0.79</td>
+                <td>4460</td>
+              </tr>
+              <tr>
+                <td>Wagon</td>
+                <td>0.82</td>
+                <td>0.81</td>
+                <td>0.82</td>
+                <td>36112</td>
+              </tr>
+              <tr>
+                <td>Other</td>
+                <td>0.73</td>
+                <td>0.73</td>
+                <td>0.73</td>
+                <td>7002</td>
+              </tr>
+              <tr>
+                <td>Van</td>
+                <td>0.66</td>
+                <td>0.67</td>
+                <td>0.66</td>
+                <td>1732</td>
+              </tr>
+              <tr>
+                <td>Offroad</td>
+                <td>0.61</td>
+                <td>0.65</td>
+                <td>0.63</td>
+                <td>2165</td>
+              </tr>
+              <tr>
+                <td class="font-bold">Accuracy</td>
+                <td></td>
+                <td></td>
+                <td>0.76</td>
+                <td>85376</td>
+              </tr>
+              <tr>
+                <td class="font-bold">Macro avg</td>
+
+                <td>0.64</td>
+                <td>0.65</td>
+                <td>0.65</td>
+                <td>85376</td>
+              </tr>
+              <tr>
+                <td class="font-bold">Weighted avg</td>
+
+                <td>0.76</td>
+                <td>0.76</td>
+                <td>0.76</td>
+                <td>85376</td>
+              </tr>
+            </table>
+          </div>
+          <div class="p-4 bg-white drop-shadow-lg rounded-md">
+            <div class="m-2 p-4 bg-slate-500 bg-opacity-30 rounded-lg">
+              <table class="mx-auto" id="LR-Micro-Scores">
+                <caption>
+                  Micro Scores
+                </caption>
+                <tr>
+                  <td>Precision</td>
+                  <td>0.76</td>
+                </tr>
+                <tr>
+                  <td>Recall</td>
+                  <td>0.76</td>
+                </tr>
+                <tr>
+                  <td>F1-score</td>
+                  <td>0.76</td>
+                </tr>
+              </table>
+            </div>
+            <div class="m-2 p-8 bg-slate-500 bg-opacity-30 rounded-lg">
+              <table class="mx-auto" id="LR-Macro-Scores">
+                <caption>
+                  Macro Scores
+                </caption>
+                <tr>
+                  <td>Precision</td>
+                  <td>0.65</td>
+                </tr>
+                <tr>
+                  <td>Recall</td>
+                  <td>0.65</td>
+                </tr>
+                <tr>
+                  <td>F1-score</td>
+                  <td>0.65</td>
+                </tr>
+              </table>
+            </div>
+            <div class="m-2 p-4 bg-slate-500 bg-opacity-30 rounded-lg">
+              <table class="mx-auto" id="LR-Weighted-Scores">
+                <caption>
+                  Weighted Scores
+                </caption>
+                <tr>
+                  <td>Precision</td>
+                  <td>0.76</td>
+                </tr>
+                <tr>
+                  <td>Recall</td>
+                  <td>0.76</td>
+                </tr>
+                <tr>
+                  <td>F1-score</td>
+                  <td>0.76</td>
+                </tr>
+              </table>
+            </div>
+            <p
+              class="flex justify-center p-2 m-2 mx-auto rounded-md bg-opacity-30"
+              style="background-color: #08d77e"
+            >
+              <span class="font-bold">Accuracy: &MediumSpace; </span>
+              76&percnt;
+            </p>
+          </div>
+          <div
+            class="p-4 bg-white drop-shadow-lg rounded-md flex-grow justify-center items-center flex"
+          >
+            <figure>
+              <img
+                width="800px"
+                src="media/DT_ROC.png"
+                alt="Logisit Regressions ROC"
+              />
+              <figcaption></figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        id="second seperator"
+        class="w-full px-4 my-3 bg-opacity-50 h-2 rounded-xl bg-blue-400"
+      ></div>
+      <div
+        class="flex flex-col w-full flex-wrap gap-y-5 p-8 my-5 bg-gray-50 bg-opacity-30"
+        id="naive-bayse-report"
+      >
+        <h3 class="font-bold text-2xl">Naive Bayse Report</h3>
+        <div class="flex gap-9 flex-wrap px-10 justify-center">
+          <div class="p-4 bg-white drop-shadow-lg rounded-md">
+            <table id="naive-bayse-report-container">
+              <caption>
+                Classification Report for Naive Bayse Classifier
+              </caption>
+              <tr>
+                <th></th>
+                <th>precision</th>
+                <th>recall</th>
+                <th>f1-score</th>
+                <th>support</th>
+              </tr>
+              <tr>
+                <td>Pickup</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>15368</td>
+              </tr>
+              <tr>
+                <td>Truck</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>119</td>
+              </tr>
+              <tr>
+                <td>Mini-van</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>1604</td>
+              </tr>
+              <tr>
+                <td>Hatchback</td>
+                <td>0.04</td>
+                <td>0.01</td>
+                <td>0.02</td>
+                <td>3841</td>
+              </tr>
+              <tr>
+                <td>SUV</td>
+                <td>0.05</td>
+                <td>0.63</td>
+                <td>0.10</td>
+                <td>3224</td>
+              </tr>
+              <tr>
+                <td>Coupe</td>
+                <td>0.02</td>
+                <td>0.28</td>
+                <td>0.04</td>
+                <td>1002</td>
+              </tr>
+              <tr>
+                <td>Bus</td>
+                <td>0.01</td>
+                <td>0.02</td>
+                <td>0.01</td>
+                <td>112</td>
+              </tr>
+              <tr>
+                <td>Sedan</td>
+                <td>0.10</td>
+                <td>0.57</td>
+                <td>0.16</td>
+                <td>4444</td>
+              </tr>
+              <tr>
+                <td>Convertible</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>8594</td>
+              </tr>
+              <tr>
+                <td>Wagon</td>
+                <td>0.50</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>36102</td>
+              </tr>
+              <tr>
+                <td>Other</td>
+                <td>0.16</td>
+                <td>0.01</td>
+                <td>0.01</td>
+                <td>7018</td>
+              </tr>
+              <tr>
+                <td>Van</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>0.00</td>
+                <td>1743</td>
+              </tr>
+              <tr>
+                <td>Offroad</td>
+                <td>0.02</td>
+                <td>0.05</td>
+                <td>0.03</td>
+                <td>2195</td>
+              </tr>
+              <tr>
+                <td class="font-bold">Accuracy</td>
+                <td></td>
+                <td></td>
+                <td>0.06</td>
+                <td>85376</td>
+              </tr>
+              <tr>
+                <td class="font-bold">Macro avg</td>
+
+                <td>0.07</td>
+                <td>0.12</td>
+                <td>0.03</td>
+                <td>85376</td>
+              </tr>
+              <tr>
+                <td class="font-bold">Weighted avg</td>
+
+                <td>0.23</td>
+                <td>0.06</td>
+                <td>0.02</td>
+                <td>85376</td>
+              </tr>
+            </table>
+          </div>
+          <div class="p-4 bg-white drop-shadow-lg rounded-md">
+            <div class="m-2 p-4 bg-slate-500 bg-opacity-30 rounded-lg">
+              <table class="mx-auto" id="LR-Micro-Scores">
+                <caption>
+                  Micro Scores
+                </caption>
+                <tr>
+                  <td>Precision</td>
+                  <td>0.06</td>
+                </tr>
+                <tr>
+                  <td>Recall</td>
+                  <td>0.06</td>
+                </tr>
+                <tr>
+                  <td>F1-score</td>
+                  <td>0.06</td>
+                </tr>
+              </table>
+            </div>
+            <div class="m-2 p-8 bg-slate-500 bg-opacity-30 rounded-lg">
+              <table class="mx-auto" id="LR-Macro-Scores">
+                <caption>
+                  Macro Scores
+                </caption>
+                <tr>
+                  <td>Precision</td>
+                  <td>0.08</td>
+                </tr>
+                <tr>
+                  <td>Recall</td>
+                  <td>0.12</td>
+                </tr>
+                <tr>
+                  <td>F1-score</td>
+                  <td>0.03</td>
+                </tr>
+              </table>
+            </div>
+            <div class="m-2 p-4 bg-slate-500 bg-opacity-30 rounded-lg">
+              <table class="mx-auto" id="LR-Weighted-Scores">
+                <caption>
+                  Weighted Scores
+                </caption>
+                <tr>
+                  <td>Precision</td>
+                  <td>0.26</td>
+                </tr>
+                <tr>
+                  <td>Recall</td>
+                  <td>0.06</td>
+                </tr>
+                <tr>
+                  <td>F1-score</td>
+                  <td>0.02</td>
+                </tr>
+              </table>
+            </div>
+            <p
+              class="flex justify-center p-2 m-2 mx-auto rounded-md bg-opacity-30"
+              style="background-color: #c81e18"
+            >
+              <span class="font-bold">Accuracy: &MediumSpace; </span>
+              06&percnt;
+            </p>
+          </div>
+          <div
+            class="p-4 bg-white drop-shadow-lg rounded-md flex-grow justify-center items-center flex"
+          >
+            <figure>
+              <img
+                width="800px"
+                src="media/NP_ROC.png"
+                alt="Logisit Regressions ROC"
+              />
+              <figcaption></figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div
+        id="third seperator"
+        class="w-full px-4 my-3 bg-opacity-50 h-2 rounded-xl bg-blue-400"
+      ></div>
+      <div
+        class="flex flex-col w-full flex-wrap gap-y-5 p-8 my-5 bg-gray-50 bg-opacity-30"
+        id="results-report"
+      >
+        <h3 class="font-bold text-2xl">Results</h3>
+
+        <article
+          class="bg-white drop-shadow-lg mx-auto w-full h-fit p-3 rounded-lg"
+          style="max-width: 40rem"
+        >
+          <h4 class="font-semibold mb-2 ml-1 text-xl">
+            Comparison between the classifiers
+          </h4>
+
+          <p class="p-4">
+            It is evident that the Decission tree classifier is the most
+            accurate:
+          </p>
+          <div class="flex w-full flex-nowrap font-medium">
+            <p
+              class="flex justify-center p-2 m-2 mx-auto rounded-md bg-opacity-30"
+              style="background-color: #08d77e"
+            >
+              Decision Tree: &MediumSpace;
+              <span class="font-bold"> 76&percnt; </span>
+            </p>
+            <p
+              class="flex justify-center p-2 m-2 mx-auto rounded-md bg-opacity-30"
+              style="background-color: #f1ed6b"
+            >
+              Logistic Regression: &MediumSpace;
+              <span class="font-bold">45&percnt;</span>
+            </p>
+            <p
+              class="flex justify-center p-2 m-2 mx-auto rounded-md bg-opacity-30"
+              style="background-color: #c81e18"
+            >
+              Naive Bayse: &MediumSpace;
+              <span class="font-bold"> 06&percnt; </span>
+            </p>
+          </div>
+          <p
+            style="
+              text-align: justify;
+              padding-block: 0.25rem;
+              padding-inline: 0.5rem;
+            "
+          >
+            In general, decision trees are better than logistic regression when
+            there are large numbers of features with less data-sets (with low
+            noise), while logistic regression is better than decision trees when
+            there are categorical independent variables. Naive Bayes'
+            independence assumption is a crucial factor for the classifier's.
+            &NewLine; It seems that Naive Bayse assumption is not met with our
+            dataset while the Decision Tree classifier was able to figure out
+            some complex relationships between the entries in the dataset.
+          </p>
+        </article>
+      </div>
+    </main>
+    <footer
+      class="flex flex-nowrap w-ful p-4 bg-slate-900 text-gray-100 rounded-lg"
+    >
+      <p class="font-medium mx-auto">
+        <span
+          class="text-2xl mx-4 border-2 text-slate-500 px-2 bg-gray-100 border-gray-200 rounded-lg"
+          >F22</span
+        >
+        Masters in Webscience- Web Data Mining assignment
+      </p>
+    </footer>
+  </body>
+</html>
