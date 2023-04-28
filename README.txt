@@ -1,7 +1,7 @@
 Good day Dr. Bassel,
 
 The report is hosted online and can be accessed via this link:
-https://f22-wda-ali-242361-george-237618.vercel.app
+https://f22-wdm-ali-242361.vercel.app/
 
 The Jupyter notebook is also hosted on Google Colab and can be access via this link:
 https://colab.research.google.com/drive/1bdrD8ed1mIpA0-avM7ry3gSaBpNEonRo?usp=sharing
